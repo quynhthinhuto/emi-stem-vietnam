@@ -8,7 +8,7 @@ const ALLOWED_SUBJECTS = new Set([
   "Engineering",
   "IT",
 ]);
-const ALLOWED_GRADES = new Set(["10", "11", "12"]);
+const ALLOWED_GRADES = new Set(["8", "9", "10", "11", "12"]);
 
 const evaluationSchema = {
   type: "object",
